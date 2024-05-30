@@ -1,29 +1,4 @@
 
-library(effsize)
-library(readxl)
-library(data.table)
-#library(ggpubr)
-library(readr)
-library(stats)
-library(formattable)
-library(dplyr)
-library(car)
-library(xlsx)
-library(openxlsx)
-options(scipen = 999)
-library(tm)
-library(tidytext)
-library(tidyverse)
-library(edgeR)  # Procesar datos de conteos para NGS
-library(gplots)
-library(readr)
-library(igraph) 
-library(ggraph)
-library(ggplot2)
-library(ggrepel)
-library(pheatmap)
-
-
 
 entera_alcohol <- read_excel("datos/230224-LFQ_incl_isoforms_FILTRADAS.xlsx")
 entera_alcohol$Description <- gsub("\\[OS=Rattus norvegicus\\]", "", entera_alcohol$Description)
